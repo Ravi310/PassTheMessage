@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(158, 214, 228);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#instruction,#form,#btn,#del,#msg{
+    margin: 10px;
+}
+#instruction{
+    font-size: 30px;
+}
+#input{
+    font-size: 20px;
+    padding: 15px 8px 15px 8px;
+    width: 95%;
+    outline: none;
+}
+#btn{
+    padding: 7px 9px 7px 9px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#del{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+#msg{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 10px;
+    color: crimson;
+}
